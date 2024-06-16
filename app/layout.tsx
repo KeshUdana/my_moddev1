@@ -4,6 +4,7 @@ import Icon  from "./pages/Icon";
 import "./globals.css";
 import Image from "next/image"
 import Head from "next/head"
+import Link from "next/link"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,21 +27,21 @@ export default function RootLayout({
       <nav className="fixed w-screen left-0 px-4 py-4 flex justify-between items-end bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0) shadow-md  z-40">
         <Image className="fixed top-0 left-0 w-40 h-18 rounded-2xl custom-transform border-9 drop-shadow-xl z-20"src="/ModdeLogo.svg" alt="logo"width={100} height={500}></Image>
         <ul className="font-serif font-light flex ml-auto px-2 text-xl text-violet-500 space-x-6">
-          <li className="hover:text-violet-950 active:text-violet-700">Men</li>
-          <li className="hover:text-violet-950 active:text-violet-700">Women</li>
-          <li className="hover:text-violet-950 active:text-violet-700">Docs & Usage </li>
+          <li className="hover:text-violet-950 active:text-violet-700"><Link href="$"/>Men</li>
+          <li className="hover:text-violet-950 active:text-violet-700"><Link href="$"/>Women</li>
+          <li className="hover:text-violet-950 active:text-violet-700"><Link href="$"/>Docs & Usage </li>
         </ul>
       </nav>
       </header>
 
       <footer className="fixed bottom-0 w-screen left-0 px-4 py-4 flex justify-center bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] shadow-md z-40">
         <div className="flex flex-col items-center">
-          <ul className="font-serif font-semibold  flex justify-space between  ml-auto px-2 text-sm font-sans text-violet-500 space-x-6">
-            <li className="hover:text-violet-950 active:text-violet-700">Forge Lab</li>
-            <li className="hover:text-violet-950 active:text-violet-700">Size Guide</li>
-            <li className="hover:text-violet-950 active:text-violet-700">Contact</li>
-            <li className="hover:text-violet-950 active:text-violet-700">Privacy policy</li>
-            <li className="hover:text-violet-950 active:text-violet-700">Terms and Conditions</li>
+          <ul className="font-sans font-semibold  flex justify-space between  ml-auto px-2 text-sm font-sans text-violet-500 space-x-6">
+            <li className="hover:text-violet-950 active:text-violet-700"><Link href="$"/>Forge Lab</li>
+            <li className="hover:text-violet-950 active:text-violet-700"><Link href="$"/>Size Guide</li>
+            <li className="hover:text-violet-950 active:text-violet-700"><Link href="$"/>Contact</li>
+            <li className="hover:text-violet-950 active:text-violet-700"><Link href="$"/>Privacy policy</li>
+            <li className="hover:text-violet-950 active:text-violet-700"><Link href="$"/>Terms and Conditions</li>
           </ul>
           </div>
           <br/>
