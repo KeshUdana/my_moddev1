@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Homepage from "./pages/home"
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello WOrld</h1>
-    </main>
+   <>
+   <Homepage/>
+   </>
   );
 }
