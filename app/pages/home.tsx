@@ -32,22 +32,20 @@ function Homepage() {
                     </div>
 
                     {/* Right Column */}
-                    <div className="flex justify-center items-center w-1/2 space-x-4 z-20">
-                      
-                        <div className="max-w-screen-xl  rounded-lg bg-white shadow-xl backdrop-blur-xl w-full">
-                            <Image src="/Rectangle 54.png" alt="Image 1" width={300} height={200} />
+                        <div className="flex justify-center items-center w-1/2 space-x-4 z-20">
+                            <div className="max-w-screen-xl rounded-lg bg-white shadow-xl backdrop-blur-xl w-full">
+                                <Image src="/Rectangle 54.png" alt="Image 1" width={600} height={400} />
+                            </div>
+                            <div className="max-w-screen-xl rounded-lg bg-white shadow-xl backdrop-blur-xl w-full">
+                                <Image src="/Rectangle 55.png" alt="Image 2" width={600} height={400} />
+                            </div>
+                            <div className="max-w-screen-xl rounded-lg bg-white shadow-xl backdrop-blur-xl w-full">
+                                <Image src="/image1.jpg" alt="Image 3" width={600} height={600} />
+                            </div>
+                            <div className="max-w-screen-xl rounded-lg bg-white shadow-xl backdrop-blur-xl w-full">
+                                <Image src="/image2.jpg" alt="Image 4" width={600} height={400} />
+                            </div>
                         </div>
-                        <div className="max-w-screen-xl rounded-lg bg-white shadow-xl backdrop-blur-xl w-full">
-                            <Image src="/Rectangle 55.png" alt="Image 2" width={300} height={200} />
-                        </div>
-                        <div className="max-w-screen-xl rounded-lg bg-white shadow-xl backdrop-blur-xl w-full">
-                            <Image src="/image1.jpg" alt="Image 3" width={400} height={400} />
-                        </div>
-                        <div className="max-w-screen-xl rounded-lg bg-white shadow-xl backdrop-blur-xl w-full">
-                            <Image src="/image2.jpg" alt="Image 3" width={300} height={200} />
-                        </div>
-                        </div>
-                    </div>
 
                 
             </section>
